@@ -30,8 +30,8 @@ body {
   font-size: 1.2rem;
   border: 1px solid #cccccc;
   margin: 0.4rem;
-  -webkit-transition: background-color 0.4s;
-  transition: background-color 0.4s;
+  -webkit-transition: background-color 0.7s;
+  transition: background-color 0.7s;
 }
 
 .pagination a.current {
@@ -40,7 +40,10 @@ body {
 }
 
 .pagination a:hover:not(.current) {
-  background-color: lightgray;
+  background-color: #000;
+  color: #ffffff;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .prev,

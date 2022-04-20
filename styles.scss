@@ -25,14 +25,16 @@ body {
   font-size: 1.2rem;
   border: 1px solid #cccccc;
   margin: 0.4rem;
-  transition: background-color 0.4s;
+  transition: background-color 0.7s;
 }
 .pagination a.current {
   background-color: #ffc800;
   color: #ffffff;
 }
 .pagination a:hover:not(.current) {
-  background-color: lightgray;
+  background-color: #000;
+  color: #ffffff;
+  transition: 1s;
 }
 .prev,
 .next {
