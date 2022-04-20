@@ -4,6 +4,10 @@
   list-style-type: none;
   text-decoration: none;
   box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+body {
+  background-color: #ffffff;
 }
 .page-container {
   text-align: center;
@@ -12,7 +16,7 @@
 }
 .page-container h2 {
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .pagination a {
   color: #333333;
@@ -20,6 +24,17 @@
   text-decoration: none;
   font-size: 1.2rem;
   border: 1px solid #cccccc;
-  margin: 0.5rem;
+  margin: 0.4rem;
   transition: background-color 0.4s;
+}
+.pagination a.current {
+  background-color: #ffc800;
+  color: #ffffff;
+}
+.pagination a:hover:not(.current) {
+  background-color: lightgray;
+}
+.prev,
+.next {
+  font-size: 1, 5rem;
 }
