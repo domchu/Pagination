@@ -5,3 +5,21 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+.page-container {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px 0 0 0;
+}
+.page-container h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.pagination a {
+  color: #333333;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border: 1px solid #cccccc;
+  margin: 0.5rem;
+  transition: background-color 0.4s;
+}
