@@ -1,6 +1,6 @@
 const prev = document.querySelector(".prev");
 const next = document.querySelector(".next");
-let pagination = document.querySelectorAll(".pagination a");
+let pagination = document.querySelectorAll(".pagination");
 let pageIndex = 0;
 
 prev.addEventListener("click", () => {
