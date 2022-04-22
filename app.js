@@ -38,13 +38,9 @@ for (let index = 0; index < pagination.length; index++) {
       r.classList.remove("current");
     });
 
-    // console.log(e[index]);
+    
     pagination[index].classList.add("current");
-    // console.log(pagination[index]);
-    // console.log(pagination);
-
     current = index;
-    // console.log(index);
   });
 
 }
