@@ -30,6 +30,7 @@ prev.addEventListener("click", () => {
   pagination[current].classList.add("current");
 });
 
+// clicking on any of the page/button
 for (let index = 0; index < pagination.length; index++) {
   pagination[index].addEventListener("click", function (e) {
     let w = document.querySelectorAll(".page");
